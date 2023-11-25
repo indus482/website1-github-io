@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <div style="float: right;right: 50px;" class="navbar">
+            <ul>
+                <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+                    <li class="nav-item" role="presentation">
+                      <a href="b2.html"><button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button></a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"><a style="color: aliceblue;" href="order.html">Login</a></button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contact</button>
+                    </li>
+                  </ul>
+            </ul>
+        </div>
+
+        <style>
+            .v1{
+                position:absolute;
+                left: 20%;
+                top: 30%;
+                bottom:0%;
+                z-index:-999;
+            }
+            .tittle{
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 100px;
+            }
+
+
+            .category{
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.category .list-items{
+    width: 90%;
+    position: relative;
+    margin-top: 100px;
+}
+
+.category .list-items h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 70px;
+}
+
+.category .list-items .card-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.category .card-list .card{
+    width: 400px;
+    height:auto;
+    display: block;
+    padding: 70px;
+    border-radius: 10px;
+    position: relative;
+    background: transparent;
+    outline: 5px solid silver;
+}
+
+.category .card-list .card img{
+    width: 200px;
+    height: auto;
+    bottom: 400px;
+    left: 50px;
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    box-shadow: 0 20px 20px  goldenrod;
+    border-radius: 0%;
+
+}
+
+.category .card-list .card .food-title{
+    padding: 40px 0 10px;
+}
+
+
+.category .card-list .card .food-title h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+
+.category .card .desc-food p{
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.category .card .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category .card .price span{
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.category .card .price span .plus-icon{
+    color: goldenrod;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+        </style>
+    </head>
+    <body>
+        <div class="title">
+            <h1 style="color: goldenrod;"><i>&nbsp;&nbsp;Shope Apple watch</i></h1>
+
+            
+        </div><br><br>
+        <section class="category">
+            <div class="list-items">
+                <h3 style="color: blue;"><i>Listen with no intractions!!<br>With noise cancellation.</i></h3><br><br><br><br><br><br><br><br><br>
+                <div class="card-list">
+                    <div class="card">
+                        <img src="u10.jpg"style="height:250px;width: 250px;">
+                        <div class="food-title">
+                            
+                            <h1></h1>
+                        </div>
+                        <div class="desc-food">
+                            <h1 style="text-align: center;">Air pods 3rd generation</h1>
+                            <p>The most affordable model .</p>
+                        </div>
+                        <div class="Price">
+                            <span>&nbsp;&nbsp;<b>&#8377  19900/- </b></span><span><i class='bx bxs-plus-circle plus-icon'></i></span><br><br>
+                             &nbsp;&nbsp;&nbsp;<span style="border: 1px solid black;background-color: blue;color: aliceblue;border-radius: 10px;"><a style="color: aliceblue;font-size: medium;" href="order.html">Order</a> </span>
+                        </div>
+    
+    
+                    </div>
+
+
+                    <div class="card">
+                        <img src="u13.jfif" alt="" style="height:250px;width: 250px;">
+                        <div class="food-title">
+                            
+                            <h1></h1>
+                        </div>
+                        <div class="desc-food">
+                            <h1 style="text-align: center;">Air pods 2nd generation
+
+                                </h1>
+                            <p>How about explorihg this model?</p>
+                        </div>
+                        <div class="Price">
+                            <span>&nbsp;&nbsp;<b>&#8377  12900- </b></span><span><i class='bx bxs-plus-circle plus-icon'></i></span><br><br>
+                            &nbsp;&nbsp;&nbsp;<span style="border: 1px solid black;background-color: blue;color: aliceblue;border-radius: 10px;"><a style="color: aliceblue;" href="order.html">Order</a></span>
+                        </div>
+    
+    
+                    </div>
+
+
+                    <div class="card">
+                        <img src="u12.png" alt="" style="height:270px;width: 250px;">
+                        <div class="food-title">
+                            
+                            <h1></h1>
+                        </div>
+                        <div class="desc-food">
+                            <h1 style="text-align: center;">Airpods Max</h1>
+                            <h4 style="text-align: center;"></h4>
+                            <p>Strikingly thin and fast so you can work, play or create anywhere.</p>
+                        </div>
+                        <div class="Price">
+                            <span>&nbsp;&nbsp;<b>&#8377  59900/- </b></span><span><i class='bx bxs-plus-circle plus-icon'></i></span><br><br>
+                            &nbsp;&nbsp;&nbsp;<span style="border: 1px solid black;background-color: blue;color: aliceblue;border-radius: 10px;"><a style="color: aliceblue;" href="order.html">Order</a></span>
+                        </div>
+    
+    
+                    </div>
+
+
+
+                    
+                    
+
+                       
+    
+                    
+            
+                </div>
+            </div>
+
+        </section>
+        
+
+        
+        <footer style="text-align: center;background-color: #000000;padding-bottom: 40px;">
+            <p>© 2021 iPhone Website. All rights reserved.</p>
+            <h1 style="color: #ffffff;">QUICK LINKS</h1>
+        <h3><i><a style="color:goldenrod;" href="https://secure.store.apple.com/in/shop/order/list">Orders Status</a>&nbsp;&nbsp;&nbsp;<a style="color:goldenrod;" href="https://www.apple.com/in/shop/help">shopping help</a>&nbsp;&nbsp;&nbsp;&nbsp;<a style="color:goldenrod;" href="https://www.apple.com/in/shop/yoursaves">Your Saves</a></i></h3>
+        </footer>
+
+        
+        
+    </body>
+</html>
